@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Less is More</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#home"><img src="img/logo02.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#info">Information</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#sns">SNS</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/sapporo spring02.jpg">
+			<!-- <div class="carousel-caption">
+				<h1 class="display-2">FX</h1>
+				<h3>Complete Website Layout</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+				<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+			</div> -->
+		</div>
+		<div class="carousel-item">
+			<img src="img/sapporo summer02.jpg">
+			<!-- <div class="carousel-caption">
+				<h1 class="display-2">GAME</h1>
+			</div> -->
+		</div>
+		<div class="carousel-item">
+			<img src="img/sapporo autumn02.jpg">
+			<!-- <div class="carousel-caption">
+				<h1 class="display-2">Mind fullnunes</h1>
+			</div> -->
+		</div>
+	</div>
+</div>
+
+<!--- Meet the team -->
+<div class="contaner-fluid padding" id="info">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Information</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/profile01.jpg">
+				<div class="card-body">
+					<h4 class="card-title text-center">Profile</h4>
+					<ul>
+						<li>名前：ノグチ コウスケ</li>
+						<li>出身：旭川市</li>
+						<li>現在：札幌市</li>
+						<li>過去の居住地：稚内市、安曇野市、習志野市、大阪市、神戸市</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/workhistory.jpg">
+				<div class="card-body">
+					<h4 class="card-title text-center">Work History</h4>
+					<ul>
+						<li>画像加工、レタッチ（Photoshop）</li>
+						<li>DTP（Illustrator）</li>
+						<li>パソコン（windows,mac）、タブレット、スマホの導入設定、トラブル対応</li>
+						<li>Office系授業（エクセル、ワード）の講師補佐</li>
+						<li>windowsサーバー構築、保守</li>
+						<li>ネットワーク構築、保守（有線LAN、無線LAN）</li>
+						<li>WEBサイト制作（wordpress）</li>
+						<li>ブログ制作、カスタマイズ</li>
+						<li>FXトレーダー、オンラインFX講師、FX書籍制作補助</li>
+						<li>民泊（Airbnb）運営、管理人</li>
+						<li>コワーキングスペース店長代理</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/other.jpg">
+				<div class="card-body">
+					<h4 class="card-title text-center">Other</h4>
+					<ul>
+						<li>ミニマリスト</li>
+						<li>カフェとコーヒー</li>
+						<li>ゲーム（PS4）</li>
+						<li>動画制作、編集</li>
+						<li>読書、マンガ</li>
+						<li>映画鑑賞</li>
+						<li>筋トレ、瞑想、ヨガ</li>
+						<li>武道、護身術</li>
+						<li>極度の嫌煙家</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<!-- <div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+		</div>
+	</div>
+</div> -->
+
+<!--- Welcome Section -->
+<!-- <div class="container-fluid">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-5">Profile</h1>
+		</div>
+		<hr>
+		<div class="col-12 text-left">
+			<ul>
+				<li>名前：ノグチ コウスケ</li>
+			</ul>
+			<p class="lead">テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。</p>
+		</div>
+	</div>
+</div> -->
+
+<!--- Three Column Section -->
+<!-- <div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-code"></i>
+			<h3>HTML5</h3>
+			<p>built with the latest version of HTML,HTML5</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-bold"></i>
+			<h3>BOOTSTRAP</h3>
+			<p>built with the latest version of bootstrap,bootstrap4</p>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<i class="fab fa-css3"></i>
+			<h3>CSS3</h3>
+			<p>built with the latest version of CSS,CSS3</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div> -->
+
+<!--- Two Column Section -->
+<!-- <div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>If you build it...</h2>
+			<p>テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。</p>
+			<br>
+			<a href="#" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-4">
+			<img src="img/desk.png" class="img-fluid">
+		</div>
+	</div>
+</div> -->
+
+<!-- <hr class="my-4"> -->
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<!-- <button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/panda.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/poo.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/unicorn.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+<!--- Two Column Section -->
+<!-- <div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>私達の哲学について</h2>
+			<p>テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。テストです。</p>
+		</div>
+		<div class="col-lg-4">
+			<img src="img/bootstrap2.png" class="img-fluid">
+		</div>
+	</div>
+	<hr class="my-4">
+</div> -->
+
+<!--- Connect -->
+<div class="container-fluid padding" id="sns">
+	<div class="row text-center">
+		<div class="col-12">
+			<h2>SNS</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/kousuke.noguchi.583"><i class="fab fa-facebook"></i></a>
+			<a href="https://twitter.com/nogurin3"><i class="fab fa-twitter"></i></a>
+			<!-- <a href="#"><i class="fab fa-google-plus-g"></i></a> -->
+			<a href="https://www.instagram.com/nogurin/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/user/leopardapp/videos?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<!-- <div class="col-md-4">
+				<img src="img/w3newbie.png">
+				<hr class="light">
+				<p>090-1234-5678</p>
+				<p>test@gmail.com</p>
+				<p>北海道札幌市中央区</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>営業時間</h5>
+				<hr class="light">
+				<p>平日：10時 - 18時</p>
+				<p>土日祝：休み</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>対応エリア</h5>
+				<hr class="light">
+				<p>札幌市内全域</p>
+				<p>札幌市近郊（要相談）</p>
+			</div> -->
+			<div class="col-12">
+				<!-- <hr class="light-100"> -->
+				<h6>&copy; 2019 - 2020 Less is More</h6>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
+
+
+ <!--- Check out w3newbie Templates & Courses! -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ <div style="float:left; max-width: 48%; margin: .5rem; padding: 0; border: .5rem solid #666;">
+ 	<a href="https://w3newbie.com/templates/" target="_blank" style="z-index: 100; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/w3newbie-templates-zip.png" style="max-width: 100%; min-width: 100%;"></a>
+</div>
+ <div style="float:left; max-width: 48%; margin: .5rem; padding: 0; border: .5rem solid #666;">
+ 	<a href="https://w3newbie.com/courses/" target="_blank" style="z-index: 100; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/w3newbie-courses-zip.png" style="max-width: 100%; min-width: 100%;"></a>
+</div>
+<br style="clear: both;">
+<div style="max-width: 52%; margin: 2rem auto; padding: 0; border: .5rem solid #666;">
+ 	<a href="https://w3newbie.com/hosting/" target="_blank" style="z-index: 100; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/web-hosting-zip.jpg" style="max-width: 100%; min-width: 100%;"></a>
+</div> -->
+ <!--- Check out w3newbie Templates & Courses! -->
